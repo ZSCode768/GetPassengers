@@ -48,7 +48,7 @@ class GetPassengers : AppCompatActivity() {
             val passenger = Passenger(firstName, lastName, phoneNumber)
             passengerList.add(passenger)
 
-            textPut.append("\n${passenger.toString()}")
+            textPut.append("\n${passenger}")
 
             textFirst.text.clear()
             textLast.text.clear()
